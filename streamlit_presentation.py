@@ -34,7 +34,7 @@ st.title("Price Comparison")
 st.subheader("From Scroll Network (Mostly)")
 st.markdown("---")
 st.markdown("Context:")
-st.markdown("We compare four major price feed providers — Chainlink, Redstone, and eOracle")
+st.markdown("We compare four major price feed providers — Chainlink, Redstone, Api3, and eOracle")
 st.markdown("----")
 st.markdown('Objectives of this research:')
 st.markdown('Determine how eOracle objectively compares to competitors in terms of price accuracy based on deviation threshold settings during times of volatility')
@@ -51,8 +51,7 @@ st.markdown("Understanding their behavior helps us:")
 st.markdown("    - Optimize for cost.")
 st.markdown("    - Evaluate reliability.")
 st.markdown("    - Identify competitive advantages.")
-st.markdown("----")
-st.markdown("----")
+
 
 comparisons_dict = {
      'ETH-USD': {
