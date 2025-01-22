@@ -71,7 +71,7 @@ comparisons_dict = {
         'combined_df': wbtc_usdt_combined_df,
         'exchange_data_df': binance_wbtc_usdt_prices_df
      },
-     'ZRC-USD (Zircit Network)': {
+     'ZRC-USD (Zircuit Network)': {
         'combined_df': zrc_usdt_combined_df,
         'exchange_data_df': bybit_zrc_usdt_prices_df
      }
