@@ -30,27 +30,6 @@ bybit_zrc_usdt_prices_df = pd.read_csv('bybit_df_ZRC_USDT_2025-01-22_17-32-02.cs
 
 
 
-st.title("Price Comparison")
-st.subheader("From Scroll Network (Mostly)")
-st.markdown("---")
-st.markdown("Context:")
-st.markdown("We compare four major price feed providers — Chainlink, Redstone, Api3, and eOracle")
-st.markdown("----")
-st.markdown('Objectives of this research:')
-st.markdown('Determine how eOracle objectively compares to competitors in terms of price accuracy based on deviation threshold settings during times of volatility')
-st.markdown("----")
-st.markdown("Why This Comparison Matters")
-st.markdown("Latency and frequency of updates impact:")
-st.markdown("    - User experience: Faster price resolution is ideal, especially in volatile conditions.")
-st.markdown("    - Cost-effectiveness: Excessive updates waste resources.")
-st.markdown("    - Price accuracy: Missed price changes can cause financial loss.")
-st.markdown("----")
-st.markdown("Competitors in this space use different heartbeat intervals and price thresholds.")
-st.markdown("----")
-st.markdown("Understanding their behavior helps us:")
-st.markdown("    - Optimize for cost.")
-st.markdown("    - Evaluate reliability.")
-st.markdown("    - Identify competitive advantages.")
 
 
 comparisons_dict = {
@@ -89,7 +68,7 @@ def app():
         st.sidebar.markdown("---")
         selected_comparison = st.sidebar.selectbox('Select a comparison', list(comparisons_dict.keys()))
         # if clicks button
-        if st.sidebar.button('Display'):
+        if st.button('Display'):
             combined_df = comparisons_dict[selected_comparison]['combined_df']
             prices_df = comparisons_dict[selected_comparison]['exchange_data_df']
 
