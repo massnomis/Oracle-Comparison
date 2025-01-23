@@ -16,7 +16,7 @@ eth_usd_combined_df = pd.read_csv('combined_df_ETH_USD_2025-01-22_17-06-11.csv')
 kraken_eth_usd_prices_df = pd.read_csv('binance_df_ETH_USDT_2025-01-23_18-47-13.csv')
 
 usdt_usd_combined_df = pd.read_csv('combined_df_USDT_USD_2025-01-22_17-10-00.csv')
-kraken_usdt_usd_prices_df = pd.read_csv('kraken_df_USDT_USD_2025-01-22_17-09-55.csv')
+kraken_usdt_usd_prices_df = pd.read_csv('binance_df_USDT_USDC_2025-01-23_18-46-17.csv')
 
 usdc_usd_combined_df = pd.read_csv('combined_df_USDC_USD_2025-01-22_17-13-04.csv')
 kraken_usdc_usd_prices_df = pd.read_csv('binance_df_USDC_USDT_2025-01-23_18-46-17.csv')
