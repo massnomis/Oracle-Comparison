@@ -19,7 +19,7 @@ usdt_usd_combined_df = pd.read_csv('combined_df_USDT_USD_2025-01-22_17-10-00.csv
 kraken_usdt_usd_prices_df = pd.read_csv('kraken_df_USDT_USD_2025-01-22_17-09-55.csv')
 
 usdc_usd_combined_df = pd.read_csv('combined_df_USDC_USD_2025-01-22_17-13-04.csv')
-kraken_usdc_usd_prices_df = pd.read_csv('kraken_df_USDC_USD_2025-01-22_17-13-03.csv')
+kraken_usdc_usd_prices_df = pd.read_csv('binance_df_USDC_USDT_2025-01-23_18-46-17.csv')
 
 wbtc_usdt_combined_df = pd.read_csv('combined_df_WBTC_USDT_2025-01-22_17-18-49.csv')
 binance_wbtc_usdt_prices_df = pd.read_csv('binance_df_WBTC_USDT_2025-01-22_17-18-46.csv')
